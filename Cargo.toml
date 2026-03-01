@@ -1,0 +1,17 @@
+[package]
+name = "decrypt-mpegts"
+version = "0.1.0"
+edition = "2021"
+description = "HLS sample-encrypted MPEG-TS decryptor"
+license = "BSD-2-Clause"
+repository = "https://github.com/mchelnokov/decrypt-mpegts"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+hex = "0.4"
+aes = "0.8"
+cbc = "0.1"
+cipher = "0.4"
+thiserror = "2"
+log = "0.4"
+env_logger = "0.11"
